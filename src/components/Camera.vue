@@ -90,7 +90,7 @@ export default {
   margin-right: 90px;
   padding: 5px;
 }
-.container .camera video,
+.container .camera
 .container .camera #canvas {
   width: 70vw;
   height: 70vh;
@@ -114,5 +114,11 @@ export default {
   widows: 30px;
   height: 30px;
   padding: 1px;
+}
+video {
+  width: 140%;
+  height: 140%;
+  object-fit: fill;
+  border-radius: 50% !important;
 }
 </style>
